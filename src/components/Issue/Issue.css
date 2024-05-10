@@ -1,0 +1,90 @@
+.issue {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .issue:hover {
+    background-color: var(--bg-color);
+  }
+  
+  .issue-icon {
+    flex-shrink: 0;
+    padding-right: 0.5rem;
+  }
+  
+  .issue-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #242b33;
+    text-decoration: none;
+  }
+  
+  .issue-labels {
+    display: inline;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    overflow-wrap: break-word;
+  }
+  
+  .issue-title:hover {
+    color: var(--blue);
+    cursor: pointer;
+  }
+  
+  .issue-details {
+    flex-grow: 1;
+  }
+  
+  .issue-meta-data {
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+    color: #555;
+    font-size: 0.75rem;
+  }
+  
+  .issue-user {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .issue-user:hover {
+    color: var(--blue);
+  }
+  
+  .issue-other-details {
+    display: flex;
+    width: 25%;
+  }
+  
+  .issue-details-col {
+    width: 33%;
+    margin-left: 0.5rem;
+    text-align: right;
+  }
+  
+  .issue-extra-link {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  
+  .issue-extra-link svg {
+    fill: #555;
+    vertical-align: middle;
+  }
+  
+  .issue-extra-link:hover {
+    color: var(--blue);
+  }
+  
+  .issue-extra-link:hover svg {
+    fill: var(--blue);
+  }
+  
+  .issue-assignee-img {
+    width: 1.25rem;
+    border-radius: 50%;
+  }

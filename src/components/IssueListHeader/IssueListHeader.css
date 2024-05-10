@@ -1,0 +1,41 @@
+.issue-list-header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    background-color: var(--bg-color);
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+}
+
+.issue-list-header .issues-count {
+    display: flex;
+    cursor: pointer;
+}
+
+.faded {
+    color: rgba(0,0,0,0.6);
+}
+
+.issue-list-header .count {
+    flex: auto;
+    flex-direction: row;
+    display: flex;
+    line-height: 2.25rem;
+    gap: 1rem;
+}
+
+
+
+.options {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 2.25rem;
+    gap: 1rem;
+    font-weight: 400;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

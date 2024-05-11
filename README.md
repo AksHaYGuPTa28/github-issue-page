@@ -1,2 +1,2 @@
-# Github Issue page Clone 
-Created clone of GitHub Issues Page using React, HTML, CSS, JS and Github api with infinite scroll feature and deployed on vercel.
+#GitHub Issue page for OFF Business:
+Created a clone of the GitHub Issues Page using React, HTML, CSS, JS, and the GitHub API with an infinite scroll feature, and deployed it on Vercel. Ideally I wanted to implement ATOMIC design structure with unit testing but since I had to complete it given time frame I have not used ATOMIC design and Unit Testing.
